@@ -1,39 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Design System
-
-Fonts, Headings, Texts,(typography)
-Components - buttons, variations
-Gaps
-
-A standardized design template for the website
- */
- /* CSS variables colors,gaps,fonts */
- :root{
+:root{
     --main-font: Poppins, sans-serif;
     --headings-dark: rgb(5,44,67);
-    --navbar-bg:rgb(28,91,123);
-    --bluelight:rgb(212,234,235);
-    --blue-semi-dark:rgb(171,214,235);
-    --blue-links:rgb(109,183,221);
-    --tagline-color: rgb(0,0,0,0.3);
+    --navbar-bg: rgb(28,91,123);
+    --bluelight: rgb(212,234,235);
+    --blue-semi-dark: rgb(171,214,235);
+    --blue-links: rgb(109,183,221);
+    --tagline-color: rgba(0,0,0,0.3);
     --std-gap: 120px;
-    --std-side-gap:100px;
- }
+    --std-side-gap: 100px;
+}
 
- *{
-    margin : 0px;
-    padding : 0;
-    box-sizing : border-box;
- }
- .fn-section-heading{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fn-section-heading{
     font-family: var(--main-font);
     font-size: 38px;
     margin-top: 16px;
     color: var(--headings-dark);
     text-align: center;
- }
- .fn-section-tagline{
+}
+
+.fn-section-tagline{
     color: var(--tagline-color);
     font-size: 13px;
     text-align: center;
@@ -41,23 +34,19 @@ A standardized design template for the website
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
- }
- section{
-    padding:var(--std-gap);
- }
-.bg1{
-   color: var(--blue-semi-dark);
-} 
-
-nav{
-   padding: 30px var(--std-side-gap);
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-
 }
 
-/* nav .nav-link, nav .logo */
+section{
+    padding: var(--std-gap);
+}
 
+nav{
+    padding: 30px var(--std-side-gap);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
- /*  reset.css-> which will reset the browser CSS more efficiently */
+body{
+    font-family: var(--main-font);
+}
