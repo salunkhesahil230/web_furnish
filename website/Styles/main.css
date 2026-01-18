@@ -1,4 +1,3 @@
-/* --- Hero Section --- */
 .hero {
     display: flex;
     flex-direction: row; /* Force side-by-side */
@@ -299,4 +298,5 @@
         grid-template-columns: 1fr; 
     }
 }
+
 
