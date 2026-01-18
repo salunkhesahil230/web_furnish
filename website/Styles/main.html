@@ -4,94 +4,227 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furnish</title>
-
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">Furnish</div>
-        <nav class="menu">
-            <a href="#">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">About</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">Furnish</div>
+            <div class="nav-links">
+                <a href="main.html" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Collection</a>
+                <a href="#">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </nav>
+
+        <div class="hero-text">
+            <h3>Best Design of</h3>
+            <h1>Furniture Collections</h1>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <button class="btn btn-white">Discover</button>
+        </div>
+        
+        <div class="hero-image">
+            <img src="\website\images\Furnish_Assets_1\table.webp" alt="Table">
+        </div>
     </header>
 
-    <section class="hero">
+    <section class="features-section">
+        <div class="grid-col-4" style="gap: 0;">
+            
+            <div class="feature-item">
+                <div class="feature-icon-circle">
+                    <img src="\website\images\Furnish_Assets_1\001-handshake.svg" alt="Deals">
+                </div>
+                <h4>Amazing Deals</h4>
+                <p>Far far away, behind the word mountains Lorem ipsum dolor sit amet, consectetur adipisicing audantium beatae obcaecati tenetur eveniet..</p>
+            </div>
 
-        <div class="hero-left">
-            <p class="fn-section-tagline">Welcome to Furnish</p>
-            <h1>
-                Best Design of <br>
-                Furniture Collections
-            </h1>
-            <p>
-                A small river named Duden flows by their place and supplies it with the necessary regelialia.
-            </p>
-            <a href="#" class="hero-btn">Discover</a>
+            <div class="feature-item">
+                <div class="feature-icon-circle">
+                    <img src="\website\images\Furnish_Assets_1\002-furniture.svg" alt="Quality">
+                </div>
+                <h4>Quality Furniture</h4>
+                 <p>Far far awamque molestias asperi, saepe, nostrum voluptate voluptas laudantium beatae obcaecati tenetur eveniet..</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon-circle">
+                    <img src="\website\images\Furnish_Assets_1\003-kitchen.svg" alt="Design">
+                </div>
+                <h4>Modern Design</h4>
+                 <p>Far far away, behind the word mountains Lorem ipsum dolor sit amet, consectetur adipisics  laudantium beatae obcaecati tenetur eveniet..</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon-circle">
+                    <img src="\website\images\Furnish_Assets_1\004-support.svg" alt="Support">
+                </div>
+                <h4>Best Support</h4>
+                 <p>Far far away, behind the word mountains Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dtenetur eveniet..</p>
+            </div>
+
         </div>
-
-        <div class="hero-right">
-            <img src="table.webp" alt="Furniture">
-        </div>
-
     </section>
 
-<section class="features">
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <span class="fn-section-tagline">About Us</span>
+                <h2 class="fn-section-heading">Customers</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+                
+                <div class="video-btn" style="justify-content: center; color: white;">
+                    <div class="play-icon" style="box-shadow: none;"><i class="fas fa-play"></i></div>
+                    <span>Watch Video</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="feature-card pink">
-        <div class="icon">🤝</div>
-        <h3>Amazing Deals</h3>
-        <p>
-            Far far away, behind the word mountains, far from the countries Vokalia.
-        </p>
-    </div>
+    <section>
+        <div class="container">
+            <div class="text-center">
+                <span class="fn-section-tagline">Our Finished Projects</span>
+                <h2 class="fn-section-heading">Furniture Collection</h2>
+            </div>
+            
+            <div class="collection-grid element-gap">
+                <div class="collection-item">
+                    <img src="\website\images\Furnish_Assets_1\chairfront.webp" alt="Chair Front">
+                </div>
+                <div class="collection-item">
+                    <img src="\website\images\Furnish_Assets_1\drawer.webp" alt="Drawer">
+                </div>
+                <div class="collection-item">
+                    <img src="\website\images\Furnish_Assets_1\sofa.webp" alt="Sofa">
+                </div>
+                <div class="collection-item">
+                    <img src="\website\images\Furnish_Assets_1\two_chair.webp" alt="Two Chairs">
+                </div>
+                <div class="collection-item">
+                    <img src="\website\images\Furnish_Assets_1\grey_chair.webp" alt="Grey Chair">
+                </div>
+                <div class="collection-item">
+                    <img src="\website\images\Furnish_Assets_1\clock.webp" alt="Clock">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="feature-card green">
-        <div class="icon">🪑</div>
-        <h3>Quality Furniture</h3>
-        <p>
-            Far far away, behind the word mountains, far from the countries Vokalia.
-        </p>
-    </div>
+    <section class="stats-section">
+        <div class="container">
+            <div class="grid-col-4 text-center">
+                <div class="stat-item">
+                    <h3>4</h3>
+                    <span>Year of Experience</span>
+                </div>
+                <div class="stat-item">
+                    <h3>2,090</h3>
+                    <span>Satisfied Customers</span>
+                </div>
+                <div class="stat-item">
+                    <h3>2,019</h3>
+                    <span>Project Completed</span>
+                </div>
+                <div class="stat-item">
+                    <h3>4</h3>
+                    <span>Get Awards</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="feature-card yellow">
-        <div class="icon">🛋️</div>
-        <h3>Modern Design</h3>
-        <p>
-            Far far away, behind the word mountains, far from the countries Vokalia.
-        </p>
-    </div>
+    <section>
+        <div class="container">
+            <div class="text-center">
+                <span class="fn-section-tagline">Production Flows</span>
+                <h2 class="fn-section-heading">How it Works</h2>
+            </div>
+            <br><br>
+            <div class="grid-col-3 text-center">
+                <div class="step-item">
+                    <div class="icon-circle">
+                        <i class="fas fa-calculator"></i>
+                        <div class="step-number">01</div>
+                    </div>
+                    <h4>Get A Free Quote</h4>
+                    <p style="font-size: 14px; margin-top: 10px;">Far far away, behind the word mountains.</p>
+                </div>
+                <div class="step-item">
+                    <div class="icon-circle">
+                        <i class="fas fa-cogs"></i>
+                        <div class="step-number">02</div>
+                    </div>
+                    <h4>Production</h4>
+                    <p style="font-size: 14px; margin-top: 10px;">Far far away, behind the word mountains.</p>
+                </div>
+                <div class="step-item">
+                    <div class="icon-circle">
+                        <i class="fas fa-truck"></i>
+                        <div class="step-number">03</div>
+                    </div>
+                    <h4>Delivery & Assembly</h4>
+                    <p style="font-size: 14px; margin-top: 10px;">Far far away, behind the word mountains.</p>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 50px;">
+                <button class="btn btn-primary">Learn More</button>
+                <button class="btn btn-secondary" style="margin-left: 10px;">Get a Request</button>
+            </div>
+        </div>
+    </section>
 
-    <div class="feature-card orange">
-        <div class="icon">🎧</div>
-        <h3>Best Support</h3>
-        <p>
-            Far far away, behind the word mountains, far from the countries Vokalia.
-        </p>
-    </div>
-
-</section>
-<section class="about">
-    <div class="about-left">
-        <img src="images/about-woman.png" alt="About Furnish"> 
-    </div>
-    <div class="about-right">
-        <p class="fn-section-tagline">About Furnish</p>
-        <h2 class="fn-section-heading">Quality Makes the Belief for Customers</h2>
-        <p class="about-text">
-            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. 
-            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-        </p>
-        <a href="#" class="watch-btn">
-            <span>▶</span> Watch Video
-        </a>
-    </div>
-</section>
-
+    <footer class="footer">
+        <div class="container">
+            <div class="grid-col-4">
+                <div class="footer-col">
+                    <h4>Furnish</h4>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Amazing Deals</a></li>
+                        <li><a href="#">Quality Furniture</a></li>
+                        <li><a href="#">Modern Design</a></li>
+                        <li><a href="#">Best Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Recent Posts</h4>
+                    <div style="display: flex; margin-bottom: 10px;">
+                        <img src="website\images\Furnish_Assets_1\image_1.webp" style="margin-right: 10px; border-radius: 5px;">
+                        <div>
+                            <small>Mar 05, 2021</small>
+                            <h6 style="font-size: 12px; margin:0;">Shop the Look Cottage</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Have a Questions?</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, CA</li>
+                        <li><i class="fas fa-phone"></i> +2 392 3929 210</li>
+                        <li><i class="fas fa-envelope"></i> info@yourdomain.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright ©2026 All rights reserved | This template is made with love by Colorlib</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
